@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar cartão de crédito</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <section class="body">
+    <div class="container" id="conte">
+        <h1 id="t1">Adicionar cartão de crédito</h1>
+
+        <form id="cardForm" action="#" method="post">
+            <div class="input-group">
+                <label for="nomeCartao">Nome no cartão:</label>
+                <input type="text" class="form-control" id="nomeCartao" name="nomeCartao" placeholder="Nome no cartão" required>
+                <i class="fas fa-user"></i>
+            </div>
+
+            <div class="input-group">
+                <label for="numeroCartao">Número do cartão:</label>
+                <input type="text" class="form-control" id="numeroCartao" name="numeroCartao" placeholder="Número do cartão" required>
+                <i class="fas fa-credit-card"></i>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <label for="dataValidade">Data de validade:</label>
+                        <input type="text" class="form-control" id="dataValidade" name="dataValidade" placeholder="MM/AAAA" pattern="\d{2}/\d{4}" required>
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <label for="cvv">CVV:</label>
+                        <input type="text" class="form-control" id="cvv" name="cvv" placeholder="CVV" required>
+                        <i class="fas fa-lock"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="input-group">
+                <label for="valorGasto">Quanto deseja gastar?</label>
+                <input type="number" class="form-control" id="valorGasto" name="valorGasto" placeholder="Quanto deseja gastar" required>
+                <i class="fas fa-dollar-sign"></i>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Adicionar cartão</button>
+        </form>
+    </div>
+    </section>
+</body>
+</html>

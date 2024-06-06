@@ -1,0 +1,238 @@
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+
+  .navbar-custom {
+    background-color: #B0BEC5;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .navbar-custom .navbar-brand,
+  .navbar-custom .nav-link {
+    color: #0D47A1;
+    font-size: 1.25rem;
+  }
+
+  .category-title {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #0D47A1;
+  }
+
+  .call {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+  }
+
+  .left {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    padding: 0 20px;
+  }
+
+  .imagem img {
+    max-width: 100%;
+  }
+
+  .text {
+    margin-left: 20px;
+  }
+
+  .color-azul {
+    color: #0D47A1;
+  }
+
+  .cart-icon {
+    color:rgb(0, 82, 0);
+    font-size: 30px;
+    padding: 0px 20px 10px 50px;
+    margin-right: 10px;
+  }
+
+  .cart-icon:hover {
+    color: #0D47A1;
+  }
+
+  .line {
+    width: 80%;
+    height: 2px;
+    background: #17203F;
+    position: relative;
+    top: 40px;
+  }
+
+  .text-md {
+    font-size: 42px;
+  }
+
+  .titulo {
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 40px;
+    text-shadow: 0 0 10px #545454;
+    color: #2B2B2B;
+  }
+
+  .text-titulo {
+    position: relative;
+    top: -10px;
+    z-index: 99;
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+    font-size: 18px;
+    background: #8B634A;
+    color: #fff;
+  }
+
+  /* Estilos para os cards de imagem */
+  .card-img {
+    max-width: 250px;
+    /* Defina a largura máxima dos cards */
+    margin-bottom: 20px;
+    /* Adicione um espaçamento entre os cards */
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+
+  .card-img-top {
+    width: 100%;
+    /* Garanta que a imagem ocupe toda a largura do card */
+    height: auto;
+    /* Mantenha a proporção da imagem */
+  }
+
+  #suggested-products-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .total-container {
+    flex: 1 0 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: -5%;
+    margin-bottom: 2%;
+  }
+
+  .total-element {
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 1.3rem;
+    text-align: center;
+    width: auto;
+    /* Garante que a largura seja ajustável */
+    margin: 0;
+    /* Remove a margem padrão */
+  }
+
+  .card-text{
+    color: rgb(1, 100, 1);
+  }
+
+  .body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#conte {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+#t1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.input-group input::placeholder {
+    color: #aaa;
+}
+
+.input-group i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+}
+
+.input-group i.fa-calendar-alt {
+    right: 14px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row .col-md-6 {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.row .col-md-6:last-child {
+    margin-right: 0;
+}
+
+button {
+    width: 100%;
+    padding: 12px 0;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+  

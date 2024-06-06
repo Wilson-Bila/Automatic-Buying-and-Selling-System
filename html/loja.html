@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja Virtual</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="../js/script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="font-size: 2.0rem; text-shadow: 0 0 10px #545454;">Bila's Store</a>
+        </li>
+      </ul>
+    <div id="dadosCartao">
+      <!-- Informações do Cartão Aqui -->
+    </div>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Produtos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contato</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cartao.html">Cartão Bancário</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="cart-icon" style="text-decoration: none;">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
+
+  <section class="max-width bg" id="Suggested" style="margin-bottom: -10%;">
+    <div class="container" style="margin-top: 2%; width: 100%;">
+      <div class="titulo">
+        <h2 class="text-md color-cinza-1">Produtos Sugeridos</h2>
+        <div class="line">
+          <div class="text-titulo">
+            Sugestão de acordo com o saldo disponivel
+          </div>
+        </div>
+      </div>
+      <div class="suggested-products-container">
+        <div class="row" id="suggested-products-row">
+          <!-- Produtos sugeridos serão inseridos aqui dinamicamente -->
+        </div>
+      </div>
+      <div class="titulo">
+        <div class="line"></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="call">
+    <div class="left">
+      <div class="imagem" style="margin-right: 15px;">
+        <img src="../img/background.jpg" alt="">
+      </div>
+      <div class="text">
+        <h1 class="color-azul text-2xl font-bold" style="font-size: 2.5rem; padding-bottom: 2%;">Novas Coleções</h1>
+        <p class="color-azul text-lg" style="font-size: 1.125rem;">
+          Explore nossas coleções de última geração,
+          onde cada item foi escolhido com atenção aos
+          detalhes para garantir qualidade, estilo e funcionalidade.
+          De moda a tecnologia, de utensílios domésticos a presentes exclusivos,
+          temos algo para cada ocasião e para cada membro da sua família.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row" id="product-container">
+      <div class="col-12 category-title">Livros</div>
+      <div class="col-md-4 col-lg-3 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="../img/livro1.jpeg" alt="Produto">
+          <div class="card-body">
+            <h2 class="card-title">Livro: The Many Faces</h2>
+            <p class="card-text">400.00 Mt</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-3 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="../img/livro2.jpeg" alt="Produto">
+          <div class="card-body">
+            <h2 class="card-title">Livro: Organized Thinking</h2>
+            <p class="card-text">750.00 Mt</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-3 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="../img/livro3.jpeg" alt="Produto">
+          <div class="card-body">
+            <h2 class="card-title">Livro: MasterMind Dinners</h2>
+            <p class="card-text">900.00 Mt</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-3 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="../img/livro4.jpeg" alt="Produto">
+          <div class="card-body">
+            <h2 class="card-title">Livro: Intuition</h2>
+            <p class="card-text">500.00 Mt</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 category-title">Electrodomésticos</div>
+      <div class="col-md-4 col-lg-3 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="../img/geleira.jpeg" alt="Produto">
+          <div class="card-body">
+            <h2 class="card-title">Geleira</h2>
+            <p class="card-text">105 000.00 Mt</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-3 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="../img/Panela-Eletrica.jpeg" alt="Produto">
+          <div class="card-body">
+            <h2 class="card-title">Panela Elêctrica</h2>
+            <p class="card-text">1 500.00 Mt</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-3 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="../img/aspirador.jpeg" alt="Produto">
+          <div class="card-body">
+            <h2 class="card-title">Aspirador de Pó</h2>
+            <p class="card-text">10 300.00 Mt</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-3 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="../img/micro.jpeg" alt="Produto">
+          <div class="card-body">
+            <h2 class="card-title">Microondas</h2>
+            <p class="card-text">10 800.00 Mt</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 category-title">Dispositivos Electrônicos</div>
+      <div class="col-md-4 col-lg-3 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="../img/mac3.jpeg" alt="Produto">
+          <div class="card-body">
+            <h2 class="card-title">MacBook Pro 2023</h2>
+            <p class="card-text">90 000.00 Mt</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-3 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="../img/Smartwatch.jpg" alt="Produto">
+          <div class="card-body">
+            <h2 class="card-title">Smart Watch</h2>
+            <p class="card-text">18 000.00 Mt</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-3 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="../img/iph15.jpeg" alt="Produto">
+          <div class="card-body">
+            <h2 class="card-title">Iphone 15</h2>
+            <p class="card-text">110 000.00 Mt</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-3 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="../img/jbl.jpeg" alt="Produto">
+          <div class="card-body">
+            <h2 class="card-title">Headphone</h2>
+            <p class="card-text">4 000.00 Mt</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 category-title">Vestuário</div>
+      <div class="col-md-4 col-lg-3 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="../img/calcoes.jpeg" alt="Produto">
+          <div class="card-body">
+            <h2 class="card-title">Conjunto Fasculino</h2>
+            <p class="card-text">5 150.00 Mt</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-3 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="../img/girl.jpeg" alt="Produto">
+          <div class="card-body">
+            <h2 class="card-title">Vestido Feminino</h2>
+            <p class="card-text">4 000.00 Mt</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-3 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="../img/pa.jpeg" alt="Produto">
+          <div class="card-body">
+            <h2 class="card-title">Casaco Casual</h2>
+            <p class="card-text">1 500.00 Mt</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-3 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="../img/tshirt.jpeg" alt="Produto">
+          <div class="card-body">
+            <h2 class="card-title">Camisa Zara</h2>
+            <p class="card-text">2 050.00 Mt</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 category-title">Video Games</div>
+      <div class="col-md-4 col-lg-3 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="../img/PS5.jpg" alt="Produto">
+          <div class="card-body">
+            <h2 class="card-title">PlayStation 5</h2>
+            <p class="card-text">38 000.00 Mt</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-3 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="../img/VR.jpg" alt="Produto">
+          <div class="card-body">
+            <h2 class="card-title">Oculos RV</h2>
+            <p class="card-text">30 000.00 Mt</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-3 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="../img/Nintendo.jpeg" alt="Produto">
+          <div class="card-body">
+            <h2 class="card-title">Nintendo Switch</h2>
+            <p class="card-text">14 500.00 Mt</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-3 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="../img/Xbox.jpeg" alt="Produto">
+          <div class="card-body">
+            <h2 class="card-title">Xbox Series X</h2>
+            <p class="card-text">40 000.00 Mt</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-gray-800 text-white mt-5 p-4 text-center">
+    <p>&copy; 2024 Bila's Store. Todos os direitos reservados. Made by: 
+      <a href="https://github.com/Wilson-Bila" style="text-decoration: none; color: #0D47A1;">Dev Wilson Bila </a> 
+    </p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+
+</html>
