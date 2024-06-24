@@ -1,4 +1,4 @@
-<h1>This is a Website about Automatic buying and selling system built with HTML5, CSS3, and JavaScript. And an AI has been developed</h1>
+<h1>This is a Web System about Automatic buying and selling system built with HTML5, CSS3, and JavaScript. And an AI has been developed</h1>
 <br>
 We here used HTML5, CSS3, BootStrap, Tailwind and JavaScript.
 <br>
